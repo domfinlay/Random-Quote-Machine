@@ -1,0 +1,55 @@
+body {
+  background-color: #F6F1F1;
+}
+
+#quote-box {
+  border-radius: 5px;
+  background-color: #AFD3E2;
+  width: 600px;
+  margin: auto;
+  padding: 30px;
+   position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  -webkit-animation: fadein 2s;
+}
+
+#text, #author {
+  font-weight: normal;
+  
+  -webkit-animation: fadein 2s;
+}
+
+#text {
+  font-size: 1.7rem;
+  width: 85%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#author {
+  text-align: right;
+  margin: 20px auto;
+  font-size: 1.2rem;
+  font-style: italic;
+  width: 85%;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px auto 20px;
+  width: 85%;
+}
+
+.btn {
+  border-color: #19A7CE;
+  background-color: #19A7CE;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
